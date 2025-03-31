@@ -1,0 +1,28 @@
+{
+    "portfolio_details": {
+        "name": "Portfolio",
+        "description": "These is portfolio of my work.",
+        "projects": [
+        {
+            "id": 1,
+            "title": "Unity_2D_FakePokemon",
+            "description": 
+            "I developed a 2D game using Unity, inspired by Pokémon Emerald (2002) on the Game Boy, which I played during my childhood. Titled Fake Pokémon, this game offers a unique twist on the classic experience. Players can engage in battles with NPCs, purchase weapons from the black market, and heal at a 'human' center, adding an unconventional yet entertaining spin to the traditional Pokémon mechanics. If you're interested, feel free to check it out!",
+            "github": "https://github.com/jiawei110/Unity_2D_FakePokemon"
+        },
+        {
+            "id": 2,
+            "title": "Pod042_Discord_Bot",
+            "description": 
+            "I developed a Discord bot inspired by Pod042 from NieR: Automata, which is how the project got its name. Utilizing Coqui-AI, Gemini, and FFmpeg, this bot can instantly respond to text messages in chatrooms and generate speech with a distinct tone. Users can choose between two character modes: Pod042 or Operator 6O, each featuring unique speech styles and personalities, staying true to their in-game counterparts. The bot supports both English and Japanese, offering an immersive interaction experience.If you're interested, feel free to check it out! Note: You must create your own Discord bot and obtain a Gemini API key before using this project.",
+            "github": "https://github.com/jiawei110/Pod042_Discord_Bot"
+        },
+        {
+            "id": 3,
+            "title": "local_Database_System",
+            "description": "This is a lightweight database system designed to run on a local disk. It provides essential database functionalities, including database, table, and element management, as well as data importing. Additionally, it offers support for some PHP programming, enabling seamless integration with web-based applications.",
+            "github": "https://github.com/jiawei110/local_Database_System"
+        }
+        ]
+    }
+}
