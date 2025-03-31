@@ -512,19 +512,19 @@ function rotateY(m,angle){
 
 /*=================== Drawing =================== */
 var videotapeWebglObjectConfig1 = new videotape();
-videotapeWebglObjectConfig1.textureSetup(["http://localhost:8000/textures/seiyatest.jpeg","http://localhost:8000/textures/ranbowlight.jpg"],[0,1]);
+videotapeWebglObjectConfig1.textureSetup(["MyBelovedPortfolio/textures/seiyatest.jpeg","MyBelovedPortfolio/textures/ranbowlight.jpg"],[0,1]);
 videotapeWebglObjectConfig1.AttributesAssign();
 // videotapeWebglObjectConfig1.SetMatrices(view_matrix, proj_matrix, mo_matrix, [0, 0, 0]);
 videotapeWebglObjectConfig1.UserInputControl = true;
 
 var videotapeWebglObjectConfig2 = new videotape();
-videotapeWebglObjectConfig2.textureSetup(["http://localhost:8000/textures/book2cover.jpg",'http://localhost:8000/textures/book2back.jpg'],[0,1]);
+videotapeWebglObjectConfig2.textureSetup(["MyBelovedPortfolio/textures/book2cover.jpg",'MyBelovedPortfolio/textures/book2back.jpg'],[0,1]);
 videotapeWebglObjectConfig2.AttributesAssign();
 // videotapeWebglObjectConfig2.SetMatrices(view_matrix, proj_matrix, mo_matrix, [0, 0, 0]);
 videotapeWebglObjectConfig2.UserInputControl = false;
 
 var videotapeWebglObjectConfig3 = new videotape();
-videotapeWebglObjectConfig3.textureSetup(["http://localhost:8000/textures/book2cover.jpg",'http://localhost:8000/textures/ranbowlight.jpg'],[0,1]);
+videotapeWebglObjectConfig3.textureSetup(["MyBelovedPortfolio/textures/book2cover.jpg",'MyBelovedPortfolio/textures/ranbowlight.jpg'],[0,1]);
 videotapeWebglObjectConfig2.AttributesAssign();
 // videotapeWebglObjectConfig2.SetMatrices(view_matrix, proj_matrix, mo_matrix, [0, 0, 0]);
 videotapeWebglObjectConfig2.UserInputControl = false;
